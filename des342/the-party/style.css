@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: #131313;
+}
+@font-face {
+  font-family: "Favorit Pro Book";
+  src: url("fonts/FavoritPro-Book.otf");
+}
+
+@font-face {
+  font-family: "Favorit Pro Light";
+  src: url("fonts/FavoritPro-Light.otf");
+}
+.track-name {visibility:hidden;font-size:0;}
+/* canvas {
+    display: block;
+    vertical-align: bottom;
+} */
+
+#show-tracks {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: none;
+}
+
+#player-animation {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 105vw;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-title,
+.nav-menu {
+  color: #131313;
+  cursor: pointer;
+}
+
+.home {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.tracks {
+  display: inline-block;
+  margin: 0 auto;
+  padding-top: 5em;
+}
+
+.track {
+  display: inline-block;
+}
+
+.track-title {
+  width: 100%;
+}
+
+.track:nth-child(1) {
+  margin-left: 5.5em;
+}
+
+.nav-title {
+  font-family: "Favorit Pro Book";
+  font-size: 1.65em;
+  padding-top: 2em;
+  text-transform: uppercase;
+}
+
+.track-title {
+  font-family: "Favorit Pro Book";
+  text-transform: uppercase;
+}
+
+.track-title {
+  font-size: 1.65em;
+  line-height: 1.1em;
+  letter-spacing: -0.5%;
+}
+
+.track-length {
+  font-family: "Favorit Pro Light";
+  font-size: 0.85em;
+}
+
+.divider {
+  font-family: "Favorit Pro Light";
+  font-size: 1.65em;
+}
+
+/* Player CSS */
+
+.player {
+  z-index: 3999;
+  display: block;
+  position: fixed;
+  left: 20;
+  bottom: 0;
+  margin-bottom: 2em;
+}
+
+.nav-menu {
+  z-index: 100;
+  font-family: "Favorit Pro Book";
+  text-transform: uppercase;
+  font-size: 1.65em;
+  padding-top: 2em;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-right: 8.5em;
+}
+
+.play-track:nth-child(2) {
+  /* background: black; */
+}
+
+.track-buttons {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 2em;
+  margin-right: 13em;
+  color: black;
+  background: none;
+}
+
+.buttons {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+/* .nav-menu:active {
+  font-family: "Favorit Pro Book";
+  text-transform: uppercase;
+  font-size: 1.65em;
+  padding-top: 2em;
+} */

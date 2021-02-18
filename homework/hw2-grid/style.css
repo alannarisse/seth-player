@@ -1,0 +1,83 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr auto;
+  grid-template-areas: ". . . . . ."
+                       ". . col1 col2 col3 ."
+                       ". header header . . .";
+                     }
+
+.container div {
+  width: -5vw;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  padding: 35px;
+}
+
+.col-1 {
+  align-content: center;
+  margin: 20px;
+  grid-area: col1;
+}
+
+.col-2 {
+  align-content: center;
+  margin: 20px;
+  grid-area: col2;
+}
+
+.col-3 {
+  align-content: center;
+  margin: 20px;
+  grid-area: col3;
+}
+
+.row1 {
+  font-weight:700;
+  font-size: 1.15rem;
+  line-height: 1.25rem;
+  padding-bottom: 3px;
+}
+
+.row2 {
+  font-weight:100;
+  font-size: .75rem;
+}
+
+.col1 {
+  font-family: Helvetica;
+  grid-gap: 12px;
+}
+.col2 {
+  font-family: Helvetica;
+  grid-gap: 12px;
+}
+.col3 {
+  font-family: Helvetica;
+  grid-gap: 12px;
+}
+
+.look {
+  font-family: 'Inknut Antiqua', serif;
+  font-weight: 800;
+  font-size: 2.75rem;
+  padding-bottom: -150%;
+  grid-area: header;
+  line-height: 5rem;
+  align-content: center;
+  left: 40px;
+}
+
+img {
+  z-index: -1;
+  position: absolute;
+  grid-area: header;
+  top: 1.25%;
+  right: 1%;
+}

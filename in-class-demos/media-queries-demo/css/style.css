@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: Helvetica;
+}
+
+.hide-mobile {
+  display: none;
+}
+
+img {
+  width: 100%;
+}
+
+.polar-hero {
+  background-image: url('../images/polarbear.jpg');
+  height: 210px;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+h1 {
+  padding-top: 30px;
+  padding-left: 30px;
+  margin: 0;
+  color: #fff;
+}
+.polar-article {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media only screen and (min-width: 768px) {
+  .polar-article {
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 80px;
+  }
+  .polar-hero {
+    background-image: url('../images/polarbear.jpg');
+    height: 400px;
+  }
+  .feature {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .hide-mobile {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .polar-article {
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 80px;
+  }
+  h1 {
+    font-size: 68px;
+  }
+  .article-body {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .turtle-img {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+}

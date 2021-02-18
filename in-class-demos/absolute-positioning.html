@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Absolute Positioning</title>
+
+  <style>
+    .parent {
+      position: relative;
+      border: 1px solid red;
+      margin: 100px;
+      min-height: 400px;
+    }
+    .child1 {
+      position: absolute;
+      top: 20px;
+      left: 450px;
+      height: 100px;
+      width: 100px;
+      background-color: rgba(204,188,153,.8);
+      display: inline-block;
+      border-radius: 20%;
+    }
+    .child2 {
+      position: absolute;
+      top: 26px;
+      left: 450px;
+      height: 100px;
+      width: 100px;
+      background-color: rgba(153,121,53,.6);
+      display: inline-block;
+      border-radius: 50%;
+    }
+    .child3 {
+      position: absolute;
+      top: 36px;
+      left: 450px;
+      height: 100px;
+      width: 100px;
+      background-color: rgba(255,233,217,.8);
+      display: inline-block;
+      border-radius: 10%;
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="parent">
+    <div class="child1">SALE!</div>
+    <div class="child2"></div>
+    <div class="child3"></div>
+    <h1>Whoa...</h1>
+  </div>
+
+</body>
+</html>

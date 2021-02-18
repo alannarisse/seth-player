@@ -1,0 +1,45 @@
+body {
+  font-family: Helvetica, sans-serif;
+  display: block;
+  justify-content: left;
+}
+h1 {
+  font-weight: 400;
+  font-size: 3.75rem;
+  padding: -72px 0px;
+  line-height: .9;
+  letter-spacing: -.15rem;
+  padding-left: 20px;
+  padding-top: 2%;
+  max-width: 450px;
+}
+div .header{
+  text-align: justify;
+  text-justify: inter-word;
+  width: ;
+}
+div .header {
+  padding: -72px 0px;
+  line-height: 1;
+  padding-left: 20px;
+  width: 100%;
+}
+h2 {
+  font-weight: lighter;
+  font-size: 1rem;
+  padding-top: 20px;
+}
+p {
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 1;
+  padding-left: 20px;
+}
+div .link{
+  padding-left: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 4%;
+}

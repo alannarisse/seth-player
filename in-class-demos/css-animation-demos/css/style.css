@@ -1,0 +1,50 @@
+body {
+  background-color: #ccc;
+}
+
+main {
+  width: 80%;
+  margin: 80px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  background-color: rgba(255, 0, 0, 1);
+  padding: 12px 20px;
+  border-radius: 12px;
+  color: #fff;
+  border: 2px solid #f00;
+}
+
+.svg-flower {
+  width: 300px;
+  margin: auto;
+  animaiton-name: spinFlower;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.svg-text {
+  width: 500px;
+  margin: auto;
+}
+
+.button:hover {
+  animation-name: button-hover;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes spinFlower {
+ 0% {
+   transform: rotate(0deg);
+ }
+ 100% {
+   transform: rotate(360deg);
+ }
+}

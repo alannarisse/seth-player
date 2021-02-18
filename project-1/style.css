@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0 !important;
+  text-decoration: none
+  list-style-type: none !important;
+}
+
+@font-face {
+  font-family:'Fondamento-Regular';
+  src:url(fonts/Fondamento-Regular.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Basis-Grotesque-Bold';
+  src:url(fonts/basis-grotesque-bold.ttf);
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Freight-Big-Light';
+  src:url(fonts/FreightBigLight.woff);
+  font-style: normal;
+  font-weight: 100;
+}
+
+body{
+  background-color: black;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper a img {
+  width: 7.5rem;
+  margin: 25px;
+}
+
+.bottom-right-nav {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  text-align: right;
+  line-height: 2rem;
+}
+
+.bottom-right-nav .menu-bottom-right li a {
+  font-family: Freight-Big-Light;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.bottom-right-nav .menu-bottom-right li a:hover {
+  text-decoration: underline;
+}
+
+/*
+
+This isn't working?
+
+ .bottom-right-nav .menu-bottom-right li a:active {
+  text-decoration: underline;
+}
+
+*/
+/*.name-location {
+  display: flex;
+  position: absolute;
+  right: 3%;
+} */
+
+.sub-nav {
+  display: grid;
+  grid-template-columns: 10% 70% 20%;
+  text-align: right;
+  font-smooth: none;
+}
+
+.sub-nav h1 {
+  color: black;
+  font-family: Fondamento-Regular;
+  font-style: regular;
+  font-size: 4.2rem;
+  margin-top: .15rem;
+  margin-right: -2.25rem;
+}
+
+.sub-nav h2 {
+  color: black;
+  font-family: Freight-Big-Light;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.75rem;
+  margin-top: 2rem;
+  margin-right: 15px;
+}
+
+.sub-nav h3 {
+  left: 3%;
+  color: black;
+  font-family: Basis-Grotesque-Bold;
+  font-size: 10px;
+  margin-top: 8px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+
+/* Bob Price */
+
+.bob-price {
+  width: 82%;
+  height: 30%;
+  background-color: #F36F63;
+  position: fixed;
+  bottom: 0;
+  text-align: right;
+  text-decoration: none;
+}
+
+/* .bob-price .name-location h1 {
+  margin-right: -1.25rem;
+}
+
+.bob-price .name-location h2 {
+  margin: 8px 0 0 80px;
+  margin-top: 1rem;
+} */
+
+/* Erich Gerard Robert Kirwin */
+
+.erich-gerard-robert-kirwin {
+  width: 82%;
+  height: 22.5%;
+  background-color: #F1C059;
+  position: fixed;
+  bottom: 0;
+  text-align: right;
+  text-decoration: none;
+}
+
+/*.erich-gerard-robert-kirwin .name-location h1 {
+  margin-right: -.75rem;
+}
+
+.erich-gerard-robert-kirwin .name-location h2 {
+  margin: 8px 0 0 85px;
+  margin-top: 1rem;
+}*/
+
+/* Derek Corneau */
+
+.derek-corneau {
+  width: 82%;
+  height: 15%;
+  background-color: #109675;
+  position: fixed;
+  bottom: 0;
+  text-align: right;
+  text-decoration: none;
+}
+
+/*.derek-corneau .name-location h1 {
+  margin-right: -.75rem;
+}
+
+.derek-corneau .name-location h2 {
+  margin: 8px 0 0 85px;
+  margin-top: 1rem;
+}*/
+
+/* Nick Dempsey */
+
+.nick-dempsey {
+  width: 82%;
+  height: 7.5%;
+  background-color: #3B87C7;
+  position: fixed;
+  bottom: 0;
+  text-align: right;
+  text-decoration: none;
+}
+/*
+.nick-dempsey .name-location h2 {
+  margin: 8px 0 0 85px;
+  margin-top: 1rem;
+}*/

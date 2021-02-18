@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andy Shauf: The Party</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="player-animation"></div>
+    <div id="show-tracks">
+      <main class="home">
+        <header>
+          <div class="nav-title">Andy Shauf: The Party</div>
+        </header>
+        <div class="tracks">
+          <div class="track play-track" data-track="1" data-slug="the-magician">
+            <span class="track-title the-magician" data-track="1">the magician </span><span class="track-name">the-magician</span>
+            <span class="track-length"> 03:51 </span>
+          </div>
+          <span class="divider"> / </span>
+          <div class="track play-track" data-track="2"><span class="track-name">early-to-the-party</span>
+            <span class="track-title early-to-the-party" data-track="2"> early to the party </span>
+            <span class="track-length"> 04:05 </span>
+          </div>
+          <span class="divider"> / </span>
+          <div class="track play-track" data-track="3" data-slug="tracks/twist-your-ankle">
+            <span class="track-title twist-your-ankle"> twist your ankle </span><span class="track-name">twist-your-ankle</span>
+            <span class="track-length"> 03:46 </span>
+          </div>
+          <span class="divider"> / </span>
+          <div class="track play-track" data-track="4" data-slug="tracks/quite-like-you"><span class="track-name">quite-like-you</span>
+            <span class="track-title quite-like-you" data-track="4"> quite like you </span><span class="track-name">quite-like-you</span>
+            <span class="track-length"> 03:25 </span>
+          </div>
+          <span class="divider"> / </span>
+          <div class="track play-track" data-track="5" data-slug="tracks/begin-again">
+            <span class="track-title begin-again" data-track="5"> begin again </span>
+            <span class="track-name">begin-again</span>
+            <span class="track-length"> 03:17 </span>
+          </div>
+          <span class="divider"> / </span>
+          <div class="track play-track" data-track="6" data-slug="tracks/the-worst-in-you"><span class="track-name">the-worst-in-you</span>
+            <span class="track-title the-worst-in-you" data-track="6"> the worst in you </span><span class="track-name">the-worst-in-you</span>
+            <span class="track-length"> 02:55 </span>
+          </div>
+          <span class="divider"> / </span>
+          <div class="track play-track" data-track="7" data-slug="tracks/to-you">
+            <span class="track-title to-you" data-track="7"> to you </span><span class="track-name">to-you</span>
+            <span class="track-length"> 03:54 </span>
+          </div>
+          <span class="divider"> / </span>
+          <div class="track play-track" data-track="8" data-slug="tracks/eyes-of-them-all"><span class="track-name">track-title eyes-of-them-all</span>
+            <span class="track-title eyes-of-them-all" data-track="8"> eyes of them all </span><span class="track-name">eyes-of-them-all</span>
+            <span class="track-length"> 03:54 </span>
+          </div>
+          <span class="divider"> / </span>
+          <div class="track play-track" data-track="9" data-slug="tracks/alexander-all-alone"><span class="track-name">alexander-all-alone</span>
+            <span class="track-title alexander-all-alone" data-track="9"> alexander all alone </span><span class="track-name">alexander-all-alone</span>
+            <span class="track-length"> 03:58 </span>
+          </div>
+          <span class="divider"> / </span>
+          <div class="track play-track" data-track="10" data-slug="tracks/martha-sways">
+            <span class="track-title martha-sways" data-track="10"><a href="#"> martha sways </a></span><span class="track-name">martha-sways</span>
+            <span class="track-length"> 04:18 </span>
+          </div>
+        </div>
+        <div class="player">
+          <div class="nav-menu"><a href="#">Close</a></div>
+
+          <div class="play-track playerview" data-track="1" data-slug="tracks/the-magician">
+            <span class="track-title player-track the-magician" data-track="1"> the magician </span>
+            <span class="track-length player-tl" data-track="1"> 03:51 </span>
+          </div>
+
+          
+
+          <div class="track-buttons">
+            <span class="track-title buttons play">play</span>
+            <span class="divider"> | </span>
+            <span class="track-title buttons prev">prev</span>
+            <span class="divider"> | </span>
+            <span class="track-title buttons next">next</span>
+          </div>
+  
+            <audio id="the-musician" class="track-01 track-stop" src="audio/Andy Shauf - The Party - 01 The Magician.mp3" type="audio/mp3"></audio>
+            <audio id="early-to-the-party" class="track-02 track-stop" src="audio/Andy Shauf - The Party - 02 Early To The Party.mp3" type="audio/mp3"></audio>
+            <audio id="twist-your-ankle" class="track-03 track-stop" src="audio/Andy Shauf - The Party - 03 Twist Your Ankle.mp3" type="audio/mp3"></audio>
+            <audio id="quite-like-you" class="track-04 track-stop" src="audio/Andy Shauf - The Party - 04 Quite Like You.mp3" type="audio/mp3"></audio>
+            <audio id="begin-again" class="track-05 track-stop" src="audio/Andy Shauf - The Party - 05 Begin Again.mp3" type="audio/mp3"></audio>
+            <audio id="the-worst-in-you" class="track-06 track-stop" src="audio/Andy Shauf - The Party - 06 The Worst In You.mp3" type="audio/mp3"></audio>
+            <audio id="to-you" class="track-07 track-stop" src="audio/Andy Shauf - The Party - 07 To You.mp3" type="audio/mp3"></audio>
+            <audio id="eyes-of-them-all" class="track-08 track-stop" src="audio/Andy Shauf - The Party - 08 Eyes Of Them All.mp3" type="audio/mp3"></audio>
+            <audio id="alexander-all-alone" class="track-09 track-stop" src="audio/Andy Shauf - The Party - 09 Alexander All Alone.mp3" type="audio/mp3"></audio>
+            <audio id="martha-sways" class="track-10 track-stop" src="audio/Andy Shauf - The Party - 10 Martha Sways.mp3" type="audio/mp3"></audio>
+          
+        </div>
+      </main>
+    </div>
+
+<!-- JS & JQuery -->
+
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- stats.js lib -->
+    <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+    <!-- jQuery 3.5.1 CDN-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <script>
+      particlesJS("player-animation", { particles: { number: { value: 300, density: { enable: true, value_area: 800 } }, color: { value: "#ffffff" }, shape: { type: "circle", stroke: { width: 3, color: "0000000" }, polygon: { nb_sides: 5 }, image: { src: "img/github.svg", width: 100, height: 120 } }, opacity: { value: 1, random: false, anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false } }, size: { value: 75, random: true, anim: { enable: true, speed: 10, size_min: .1, sync: true } }, line_linked: { enable: false, distance: 150, color: "#ffffff", opacity: 0.4, width: 1 }, move: { enable: true, speed: 10, direction: "none", random: false, straight: false, out_mode: "out", bounce: false, attract: { enable: false, rotateX: 600, rotateY: 1200 } } }, interactivity: { detect_on: "window", events: { onhover: { enable: true, mode: "bubble" }, onclick: { enable: true, mode: "repulse" }, resize: true }, modes: { grab: { distance: 400, line_linked: { opacity: 1 } }, bubble: { distance: 100, size: 90, duration: 1.2, opacity: 8, speed: 3 }, repulse: { distance: 500, duration: 0.9 }, push: { particles_nb: 100 }, remove: { particles_nb: 80 } } }, retina_detect: true })
+      var count_particles, update
+      count_particles = document.querySelector(".js-count-particles")
+      update = function () {
+        if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+          count_particles.innerText = window.pJSDom[0].pJS.particles.array.length
+        }
+        requestAnimationFrame(update)
+      }
+      requestAnimationFrame(update)
+    </script>
+            <!--https://stackoverflow.com/questions/37836002/jquery-multiple-audio-player-buttons-->
+    <script src="player.js">
+    </script>
+
+    <script>
+      $(document).ready(function() {
+        $(".track-buttons").hide();
+        $(".player-track").hide();
+        $(".player-tl").hide();
+        $("#player-animation").hide();
+        $(".nav-menu").hide();
+      });
+
+
+      // track title player, particles and close toggle 
+
+      $(".track-title").on("click", function() {
+          var trackName = $(this).parent().find(".track-name").html()
+          var trackPrettyName = $(this).html()
+          var trackLength = $(this).parent().find(".track-length").html()
+          console.log(trackPrettyName)
+          $(".track-buttons").show();
+          $(".the-magician").show();
+          $("#player-animation").toggle();
+          $(".nav-menu").show();
+          var idName = '#' + trackName;
+          console.log(idName);
+          $('#' + trackName).get(0).play();
+          $('.playerview .track-title').html(trackPrettyName)
+          //$(".player").toggle();
+        });
+
+
+        // $(".the-magician").on("click", function() {
+        //   var dataTrack = $('datas-track').val();
+        //   console.log('hi' + dataTrack)
+        //   $(".track-buttons").show();
+        //   $(".the-magician").show();
+        //   $("#player-animation").toggle();
+        //   $(".nav-menu").show();
+        //   $(".track-01").get(0).play();
+        //   //$(".player").toggle();
+        // });
+
+        // $(".early-to-the-party").on("click", function() {
+        //   console.log('hello')
+        //   $(".track-buttons").toggle();
+        //   $(".early-to-the-party").show();
+        //   $("#player-animation").toggle();
+        //   $(".nav-menu").show();
+        //   $(".track-02").get(0).play();
+        //   // $(".player").toggle();
+        // });
+
+        // $(".twist-your-ankle").on("click", function() {
+        //   $(".track-buttons").toggle();
+        //   $(".twist-your-ankle").show();
+        //   $("#player-animation").toggle();
+        //   $(".nav-menu").show();
+        //   $(".track-03").get(0).play();
+        //   // $(".player").toggle();
+        // });
+
+        // $(".quite-like-you").on("click", function() {
+        //   $(".track-buttons").toggle();
+        //   $(".quite-like-you").show();
+        //   $("#player-animation").toggle();
+        //   $(".nav-menu").show();
+        //   $(".track-04").get(0).play();
+        //   // $(".player").toggle();
+        // });
+
+        // $(".begin-again").on("click", function() {
+        //   $(".track-buttons").toggle();
+        //   $(".begin-again").show();
+        //   $("#player-animation").toggle();
+        //   $(".nav-menu").show();
+        //   $(".track-05").get(0).play();
+        //   // $(".player").toggle();
+        // });
+
+        // $(".the-worst-in-you").on("click", function() {
+        //   $(".track-buttons").toggle();
+        //   $(".the-worst-in-you").show();
+        //   $("#player-animation").toggle();
+        //   $(".nav-menu").show();
+        //   $(".track-06").get(0).play();
+        //   // $(".player").toggle();
+        // });
+
+        // $(".to-you").on("click", function() {
+        //   $(".track-buttons").toggle();
+        //   $(".to-you").show();
+        //   $("#player-animation").toggle();
+        //   $(".nav-menu").show();
+        //   $(".track-07").get(0).play();
+        //   // $(".player").toggle();
+        // });
+
+        // $(".eyes-of-them-all").on("click", function() {
+        //   $(".track-buttons").toggle();
+        //   $(".eyes-of-them-all").show();
+        //   $("#player-animation").toggle();
+        //   $(".nav-menu").show();
+        //   $(".track-08").get(0).play();
+        //   // $(".player").toggle();
+        // });
+
+        // $(".alexander-all-alone").on("click", function() {
+        //   $(".track-buttons").toggle();
+        //   $(".alexander-all-alone").show();
+        //   $("#player-animation").toggle();
+        //   $(".nav-menu").show();
+        //   $(".track-09").get(0).play();
+        //   // $(".player").toggle();
+        // });
+
+        // $(".martha-sways").on("click", function() {
+        //   $(".track-buttons").toggle();
+        //   $(".martha-sways").show();
+        //   $("#player-animation").toggle();
+        //   $(".nav-menu").show();
+        //   $(".track-10").get(0).play();
+        //   // $(".player").toggle();
+        // });
+
+      $(document).ready(function(){
+        $(".nav-menu").on("click", function(){
+          $(".track-buttons").hide();
+          $("#player-animation").hide();
+          $(".player-track").hide();
+          $(".player-tl").hide();
+          $(".nav-menu").hide();
+          $(".track-01").get(0).pause();
+        });
+
+        $(".nav-menu").on("click", function(){
+          $(".track-buttons").hide();
+          $("#player-animation").hide();
+          $(".player-track").hide();
+          $(".player-tl").hide();
+          $(".nav-menu").hide();
+          $(".track-02").get(0).pause();
+        });
+
+        $(".nav-menu").on("click", function(){
+          $(".track-buttons").hide();
+          $("#player-animation").hide();
+          $(".player-track").hide();
+          $(".player-tl").hide();
+          $(".nav-menu").hide();
+          $(".track-03").get(0).pause();
+        });
+
+        $(".nav-menu").on("click", function(){
+          $(".track-buttons").hide();
+          $("#player-animation").hide();
+          $(".player-track").hide();
+          $(".player-tl").hide();
+          $(".nav-menu").hide();
+          $(".track-04").get(0).pause();
+        });
+
+        $(".nav-menu").on("click", function(){
+          $(".track-buttons").hide();
+          $("#player-animation").hide();
+          $(".player-track").hide();
+          $(".player-tl").hide();
+          $(".nav-menu").hide();
+          $(".track-05").get(0).pause();
+        });
+
+        $(".nav-menu").on("click", function(){
+          $(".track-buttons").hide();
+          $("#player-animation").hide();
+          $(".player-track").hide();
+          $(".player-tl").hide();
+          $(".nav-menu").hide();
+          $(".track-06").get(0).pause();
+        });
+
+        $(".nav-menu").on("click", function(){
+          $(".track-buttons").hide();
+          $("#player-animation").hide();
+          $(".player-track").hide();
+          $(".player-tl").hide();
+          $(".nav-menu").hide();
+          $(".track-07").get(0).pause();
+        });
+
+        $(".nav-menu").on("click", function(){
+          $(".track-buttons").hide();
+          $("#player-animation").hide();
+          $(".player-track").hide();
+          $(".player-tl").hide();
+          $(".nav-menu").hide();
+          $(".track-08").get(0).pause();
+        });
+
+        $(".nav-menu").on("click", function(){
+          $(".track-buttons").hide();
+          $("#player-animation").hide();
+          $(".player-track").hide();
+          $(".player-tl").hide();
+          $(".nav-menu").hide();
+          $(".track-09").get(0).pause();
+        });
+
+        $(".nav-menu").on("click", function(){
+          $(".track-buttons").hide();
+          $("#player-animation").hide();
+          $(".player-track").hide();
+          $(".player-tl").hide();
+          $(".nav-menu").hide();
+          $(".track-10").get(0).pause();
+        });
+      });
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1>Hi There!</h1>
+
+  <a href="#" id="play-sound">Crane!</a>
+
+  <audio id="pop">
+  <source src="in-class-demos/sound/sandhill-crane.mp3" type="audio/mpeg">
+</audio>
+
+<script
+  src="http://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script>
+    $('#playSound').click(function(){$('audio#pop')[0].play()})
+  </script>
+</body>
+</html>
